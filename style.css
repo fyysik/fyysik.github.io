@@ -1,0 +1,239 @@
+
+@import url("https://fonts.googleapis.com/css?family=Newsreader:400,400i,700,700i|Roboto:300,300i,400,400i&subset=latin-ext");
+
+/*HEADER*/
+
+header .header-banner {
+    width: 100%;
+    height: calc(100vh - 500px);
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+header .logo {
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+
+
+header h1 {
+    font-family: "Newsreader, serif;
+    font-weight: 700;
+    /*font-style: italic;*/
+    font-size: 60px;
+    color: #aac;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #000;
+}
+
+header h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #88a;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /*IE*/
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+header nav ul li a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+@media only screen and (min-width: 950px) {
+    
+    header .header-banner {
+        height: calc(100vh - 400px);
+    }
+    
+    header h1 a {
+        font-size: 80px;
+    }
+    
+    header h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    header nav ul li {
+        padding: 16px 42px;
+    }
+    
+}
+
+
+/*MAIN - GALLERY*/
+
+hr {
+    color: #77A;
+    border-width: 2px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+} 
+
+.meist {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; 
+    display: -moz-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.meist-header {
+    font-family: "Newsreader", serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #77A;
+    text-align: justify;
+    justify-content: center;
+}
+
+.meist-text {
+    font-family: "Newsreader", serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #77A;
+    text-align: justify;
+    justify-content: center;
+}
+.gallery-h2 {
+    font-family: "Newsreader", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: #3a383d;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap; 
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    -webkit-flex-basis: 300px; /*kuigi uuematel brauseri versioonidel peaks ka prefiksiteta töötama*/
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+    margin: 10px;
+    
+    position: relative;
+    text-align: center;
+}
+
+.post-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 9px #111;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-image img {
+    width: 100%;
+}
+
+
+/*FOOTER*/
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #bbb;
+    overflow: hidden; 
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+}
+
+footer ul li {
+    display: block;
+    padding: 0 0 10px 0;
+}
+
+footer ul li p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+footer ul li a {
+    font-family: "Newsreader", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.disclaimer {
+    display: none;
+}
+
+.footer-sm {
+    width: 32px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.round {
+    border-radius: 50%; 
+    box-shadow: 0 0 0 3px green, 0 0 13px #333; /* Параметры теней */
+}
