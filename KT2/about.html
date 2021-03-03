@@ -6,13 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content=""> 
         <meta name="author" content="">
-        <title>Ostukorv</title>
+        <title>Meist</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <!-- minu CSS -->
         <link rel="stylesheet" href="custom.css">
     </head>
     <body>
+
         <!-- päis -->
         <header class="py-2">
             <div class="container-fluid">
@@ -71,8 +72,8 @@
             <nav aria-label="breadcrumb" >
                 <ol class="breadcrumb bg-white my-2">
                     <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
-                    <li class="breadcrumb-item active">Ostukorv</li>
-					<li class="breadcrumb-item"><a href="about.html">Meist</a></li>
+                    <li class="breadcrumb-item"><a href="cart.html">Ostukorv</a></li>
+					<li class="breadcrumb-item active">Meist</li>
                 </ol>
             </nav>
         </section>
@@ -81,88 +82,70 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-start flex-column">
-                        <div class="mb-auto p-2"><h4>Ostukorvis on 1 toode</h4></div>    
-                        <div class="mb-auto p-2 row">
-                            <div class="col-lg-6">
-                                <img src="soap.png" width="100%">
-                            </div>
-                            <div class="col-lg-6">
-                                <p>15.99&#8364;</p>
-                                <p>Toode 1</p>
-                                    <select class="form-control col-lg-5 form-sm" id="kogus">
-                                        <option>0</option>
-                                        <option selected="selected">1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select>
-                                <br/>
-                            </div>            
-                        </div>
-                        <div class="p-2">
-                            <p>Tarne: <span class="text-primary">tasuta</span></p>
-                            <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
-                        </div>
-                        <div class="p-2 mx-auto">
-                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
-                        </div>
+                        <div class="mb-auto p-2 row text-center">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis mattis libero, at consectetur leo finibus eget. Fusce sit amet diam arcu. Sed quis tempus justo. Etiam rutrum, sapien et mattis feugiat, risus dolor pharetra tellus, nec eleifend libero orci sed lacus. Suspendisse vitae ipsum id lorem ultrices rutrum. Nullam sodales risus sit amet tortor consequat luctus. Integer ac tristique leo. Suspendisse congue iaculis tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc molestie cursus ipsum, id fermentum turpis sagittis in. Suspendisse potenti. Mauris sed tempor nunc, eu varius magna.
+
+Donec non facilisis mi. Maecenas tincidunt faucibus ipsum, at tempus arcu porttitor non. Mauris sed leo porttitor, varius massa sit amet, condimentum dui. Integer ut diam turpis. Praesent dignissim arcu quis dolor sollicitudin, nec tincidunt justo dignissim. Cras mi sapien, ultricies eu felis sed, efficitur tristique felis. Morbi porttitor, nibh nec condimentum euismod, sem magna varius diam, non consectetur velit turpis interdum lorem. Praesent tincidunt tempus fringilla. Morbi id est quam. Curabitur ac imperdiet risus. Sed mollis velit magna, a varius neque pellentesque id. Aenean magna velit, tristique a sollicitudin sed, posuere vitae leo. Curabitur interdum commodo leo sit amet sollicitudin. Morbi laoreet commodo risus a pulvinar.                         </div>
                     </div>
-                    <div class="col-lg-6">
-                    <form>
-						<div class="form-group">
-							<label for="Name">Nimi</label>
-							<input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Sisesta eesnimi">						
+                    <div class="col-lg-6   text-center">
+					Meie partnerid<p>
+<!-- Carousel wrapper -->
+<!-- Bootstrap 4 -->
+						<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel"  data-interval=1000>
+						<!-- Indikaatorid -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel" data-slide-to="1"></li>
+								<li data-target="#carousel" data-slide-to="2"></li>
+							</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="img-fluid" src="f1.jpg" alt="Valik 1">
+							</div>
+							<div class="carousel-item">
+								<img class="img-fluid" src="f2.jpg" alt="Valik 2">
+							</div>
+							<div class="carousel-item">
+								<img class="img-fluid" src="f3.jpg" alt="Valik 3">
+							</div>
 						</div>
-						<div class="form-group">
-							<label for="familyName">Perekonnanimi</label>
-							<input type="text" class="form-control" id="familyName" placeholder="Perekonnanimi">
+						<!-- Juhtelemendid -->
+							<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="false"></span>
+								<span class="sr-only">Eelmine</span>
+							</a>
+							<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="false"></span>
+								<span class="sr-only">Järgmine</span>
+							</a>
 						</div>
-						<div class="form-group">
-							<label for="phoneNumber">Telefoninumber</label>
-							<input type="text" class="form-control" id="phoneNumber" placeholder="Telefoninumber">
-						</div>
-						<div class="form-group">
-							<label for="postalAddress">Postiaadress</label>
-							<input type="text" class="form-control" id="postalAddress" placeholder="Postiaadress">
-						</div>		
-						<div class="form-group">
-							<label for="inputEmail">E-mail</label>
-							<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Sisesta e-mail">
-							<small id="emailHelp" class="form-text text-muted">Me ei jaga teistele teie andmed.</small>
-						</div>
-						<div class="form-group">
-							<label for="makseviisiValik">Vali makseviis</label>
-							<select class="form-control" id="makseviisiValik">
-								<option>Swedbank</option>
-								<option>Ühispank</option>
-								<option>Nordea</option>
-								<option>Paypal</option>
-								<option>Transferwise</option>
-							</select>
-						</div>
-					</form>
-                    </div>           
+<!-- Carousel wrapper -->
+					</div>           
                 </div>   
             </div>
         </section>
+		
         <!-- jalus -->
         <footer class="bg-light">
             <div class="container-fluid">
                 <div class="row">
-                    <!-- TODO! --->
-					<div class="col-lg-4 col-md-4 col-sm-12  text-center">Oleme naturaaltooteid valmistav ja müüv firma Tartust</div>
-                    <div class="col-lg-4 col-md-4 col-sm-12  text-center"><a href="about.html"><img src="jumbo32.jpg" alt="jumbo" />Meist rohkem</a></div>
+					<div class="col-lg-4 col-md-4 col-sm-12  text-center">
+					Kontakt:
+					<p><a href="mailto:jumbo@naohooldus.ee">jumbo@naohooldus.ee</a></p>
+					<p>tel. +372 55667788</p>
+					</div>
+                    <div class="col-lg-4 col-md-4 col-sm-12  text-center"><p><a href="index.html">Pealeht</a><p><img src="jumbo32.jpg" alt="jumbo" /></div>
                     <div class="col-lg-4 col-md-4 col-sm-12  text-center">
 						<p><a href="#"><img src="facebook-3-32.jpg" alt="Facebook" /></a>
 						<p><a href="#"><img src="youtube-6-32.jpg" alt="youtube" /></a>
 					</div>
-
                 </div>
             </div>
         </footer>        
         <!-- jQuery, Popper.js, Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 </html>         
