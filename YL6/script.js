@@ -16,7 +16,8 @@
             let date = new Date();
             let millis = date.getTime() - 1000;
             date.setTime(millis);
-            let h = date.getHours()%12;
+            let h = date.getHours();
+			let ampm = h >= 12 ? 'pm' : 'am';
             let m = date.getMinutes();
             let s = date.getSeconds();
 
@@ -32,7 +33,7 @@
                 s = "0" + s;
             }
 
-            c.innerHTML = h + ":" + m + ":" + s;
+            c.innerHTML = h%12 + ":" + m + ":" + s + " " + ampm;
             
         };
         
