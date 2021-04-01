@@ -148,3 +148,197 @@ pilt {
 	bottom: 20px;
 	left: 16px;
 }
+/* pakkumised */
+
+
+
+.offers-subject {
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.offers h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.offers h2 {
+    font-family: 'Patua One', serif;
+    font-size: 20px;
+    color: black;
+    position: relative;
+}
+
+
+.offers ul {
+    font-family: 'Patua One', serif;
+    font-size: 13px;
+    color: #696664;
+    list-style-type: none;
+    margin: 0;
+    padding-left:.1em;
+    margin-bottom: 15px;
+}
+.offers li {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    text-align: left;
+    margin: 0;
+    padding-left: 2.9em;
+    position: relative;
+    line-height: 25px;
+}
+
+
+.offers-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.offers-bronze, .offers-silver, .offers-gold {
+    border-radius: 3px;
+    background-color: #fce1c9;
+    box-shadow: 3px 3px 0  #d1beaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offers-silver {
+    margin: 0 .5em 0 .5em;
+}
+
+.offers-bronze-subject, .offers-silver-subject, .offers-gold-subject {
+    display: flex;
+    justify-content: center;
+}
+
+.offers-bronze-button, .offers-silver-button, .offers-gold-button{
+    display: flex;
+    justify-content: center;
+    
+     
+}
+.offers-gold-button{
+    background-color: #ccb7a2;
+}
+.offers .button {
+
+    font-size: 17px;
+    text-decoration: none;
+    outline: none;
+    color: #444444;
+    background-color: #81fb69;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0  #7cdd65;
+    height: 25px;
+    width: 135px;
+    margin: .3em .5em .5em .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pavanam', serif;
+    color: #595959;
+}
+
+.offers-bronze-button .button, .offers-silver-button .button {
+    background-color: #fbb57a;
+    box-shadow: 3px 3px 0  #f3a66a;
+}
+
+.line {
+    border: .9px solid;
+    border-radius: 20px;
+    color: #aaa29b;
+    width: 130px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.offers-bronze h2:before {
+    content: '';
+    left: 67px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('./corner_bronze.png');
+    background-size: contain;
+    margin-right: .5em;
+    margin-top: -.8em;
+   
+}
+.offers-silver h2:before {
+    content: '';
+    left: 58px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('./corner_silver.png');
+    background-size: contain;
+    margin-right: .5em;
+    margin-top: -.8em;
+   
+}
+.offers-gold h2:before {
+    content: '';
+    left: 56px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('./corner_gold.png');
+    background-size: contain;
+    margin-right: .5em;
+    margin-top: -.8em;
+   
+}
+
+.offers-bronze button:before {
+    content: '';
+    left: 1px;
+    position: absolute;
+    width: 25px;
+    height: 200px;
+    background-image: url('./ticks_bronze.png');
+    background-repeat: no-repeat;
+    background-size: 19px;
+    margin-left: 0.4em;
+    margin-top: -9.1em; 
+}
+.offers-silver button:before {
+    content: '';
+    left: 1px;
+    position: absolute;
+    width: 25px;
+    height: 200px;
+    background-image: url('./ticks_silver.png');
+    background-repeat: no-repeat;
+    background-size: 19px;
+    margin-left: 0.4em;
+    margin-top: -9.1em; 
+}
+.offers-gold button:before {
+    content: '';
+    left: 1px;
+    position: absolute;
+    width: 25px;
+    height: 200px;
+    background-image: url('./ticks_gold.png');
+    background-repeat: no-repeat;
+    background-size: 19px;
+    margin-left: 0.4em;
+    margin-top: -9.1em; 
+}
+.offers-bottom {
+    display: flex;
+    justify-content: center;
+    margin-left: -46.2em;
+    font-size: 7px;
+    color: #c6c6c6;
+    font-family: 'Patua One', serif;
+    margin-top: 5px;
+}
