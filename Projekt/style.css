@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&display=swap');
+
+h1 {
+    font-family: 'Patua One', serif;
+    font-size: 48px;
+    color: #444444;
+}
+
+h3 {
+    font-family: 'Pavanam', serif;
+    font-size: 36px;
+    color: #595959;
+
+}
+
+body {
+    font-family: 'Pavanam', serif;
+    font-size: 20px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    flex-flow: row nowrap;
+	align-items: center;
+    
+}
+
+
+.nav li {
+    display: flex;
+    padding: 0 10px;
+	border:none;
+	font-weight: 600;
+    outline: none;
+    color: #444444;	
+}
+
+.nav-link{
+
+    background-color: #F2F2F2;
+    box-shadow: 3px 3px 0 #E6E6E6;
+}
+
+.nav-item {
+
+}
+
+
+a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #595959
+}
+
+
+body {
+    padding-right: 50px;
+    padding-left: 50px;
+    min-width:600px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: flex-end;
+
+}
+
+.flex-img {
+    flex: 1 1 40em;
+}
+
+.flex-text {
+    flex: 2 2 20em;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+
+.btn-group {
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 50px;
+    align-items: flex-end;
+    color: dimgray;
+    cursor: pointer;
+}
+
+.btn-group a {
+    text-decoration: none;
+
+}
+
+.button {
+    position: relative;
+    display: inline-flex;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #444444;
+    background-color: #fbb579;
+	border-width:0px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0 #f29749;
+	margin: 10px;
+}
+.button:hover {
+	background-color:#90EE90;
+    border-style:solid;
+    border-width:5px;
+	 border-color:gray;
+}
+
+		pilt {
+			margin-top:20px;
+			position: relative;
+			text-align: center;
+			color: white;
+			padding:10px;
+		}
+		.top-right {
+			position: absolute;
+			top: 20px;
+			right: 16px;
+		}
+		.bottom-right {
+			position: absolute;
+			bottom: 0px;
+			right: 16px;
+		}
+		.bottom-left {
+			position: absolute;
+			bottom: 20px;
+			left: 16px;
+		}
